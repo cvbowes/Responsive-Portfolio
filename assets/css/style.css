@@ -160,7 +160,6 @@ li+li {
 .portfolioLink {
 	width: 250px;
 	height: 70px;
-	background-color: "red";
 	padding-top: 100px;
 	display: inline-block;
 	margin: 20px;
@@ -260,19 +259,21 @@ nav {
 	left: 520px;
 }
 
+.container {
+	width: 980px;
+}
+
 .mainSection {
 	width: 328px;
+	text-align: justify;
 
 }	
 
-.sidebar {
-	left: 490px;
-
-}
-
 #profilePic {
-	float:none;
+	float: none;
 	display: block;
+	margin: auto;
+	margin-bottom: 10px;
 }
 
 #messageEntry {
@@ -280,14 +281,133 @@ nav {
 
 }
 
+.portfolioLink {
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+
 }
+
+.sidebar {
+	left: 490px;
+
+}
+
 
 @media screen and (max-width: 768px) {
 
+#name {
+	margin-left: 20px;
+
+}
+
+nav {
+	left: 440px;
+}
+
+.container {
+	width: 768px;
+
+}
+
+.mainSection {
+	margin-left: 20px;
+	margin-bottom: 40px;
+	width: 600px;
+	text-align: justify;
+
+}	
+
+.portfolioLink {
+	display: inline-block;
+	margin: 20px;
+}
+
+#messageEntry {
+	width: 597px;
+
+}
+
+h3 {
+	width:580px;
+	text-align: left;
+
+}
+
+.sidebar {
+	padding: 10px 20px;
+	position: relative;
+	top: 0;
+	left: 20px;
+	width: 620px;
+	text-align: left;
+	background: #fff;
+	margin-bottom: 150px;
+
+}
 
 }
 
 @media screen and (max-width: 640px) {
 
+header {
+	border: none;
+	padding: 0;
+	position: static;
+}
+
+#name {
+	display: block;
+	margin: 0;
+	text-align: center;
+	padding: 30px 0px;
+
+}
+
+nav {
+	position: relative;
+	left: 0;
+	width: 100%;
+	padding: 20px 0px;
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 0px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 0px 60px;
+
+}
+
+li+li { 
+	border: none;
+
+}
+
+.mainSection {
+	display: inline-block;
+	margin: 20px;
+	width: 480px;
+}
+
+#messageEntry {
+	width: 477px;
+
+}
+
+.portfolioLink {
+	width: 400px;
+	margin-left: 40px;
+}
+
+h3 {
+	width: 460px;
+}
+
+.sidebar {
+	left: 20px;
+	width: 500px;
+}
 
 }
